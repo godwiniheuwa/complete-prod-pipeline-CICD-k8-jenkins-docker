@@ -7,7 +7,7 @@ pipeline{
         maven 'Maven3'
     }
     environment {
-        APP_NAME = "complete-prod-pipeline-CICD-k8-jenkins-docker"
+        APP_NAME = "complete-prod-pipeline-cicd-k8-jenkins-docker"
         RELEASE = "1.0.0"
         DOCKER_USER = "stargodwin"
         DOCKER_PASS = 'dockerhub'
