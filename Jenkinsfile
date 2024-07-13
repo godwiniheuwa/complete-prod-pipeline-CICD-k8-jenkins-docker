@@ -77,7 +77,7 @@ pipeline{
                         docker_image.push("${IMAGE_TAG}")
                         docker_image.push('latest')
                     }
-
+                }
             }
 
         }
